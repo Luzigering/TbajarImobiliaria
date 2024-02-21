@@ -48,10 +48,10 @@ export default {
         display: 'flex',
         justifyContent: 'flex-start',
         margin: '1%',
-        width: '100vw',
+        maxWidth: '100%',
         backgroundColor: 'white',
         paddingTop: '8%', 
-        
+        boxSizing: 'border-box'
     },
     map:{
         width: '100%',
@@ -114,25 +114,22 @@ export default {
         opacity: '0.45',
         fontWeight: 'bold',
         borderRadius: '51px',
-        maxWidth: '100%',
         textAlign: 'center',
         margin: '1%',
         marginTop: '-1%',
         padding: '4px', 
         fontSize: '1.7rem',
         boxSizing: 'border-box',
-        maxHeight: 'fit-content'
+
     },
     
     cardTag:{
-        maxWidth: 'fit-content',
-        margin: '1%'
+     
     },
     cardPaiTag:{
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    gridGap: '5px',
-        
+    gridGap: '5px',  
     },
     contentStyle: {
         height: '38vh',

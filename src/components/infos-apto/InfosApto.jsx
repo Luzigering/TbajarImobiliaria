@@ -55,8 +55,11 @@ const InfosApto = () => {
     color: 'green'
   }}className='childDiv'> PREÇO ABAIXO DO MERCADO</div>
   </div>
+
   </div>
+
   </div>
+
   </div>
   <div className="childDiv" style={styles.cardTag}>
  <Tags />
