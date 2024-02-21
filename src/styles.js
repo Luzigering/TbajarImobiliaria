@@ -129,7 +129,8 @@ export default {
     cardPaiTag:{
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    gridGap: '5px',  
+    gridGap: '5px',
+    backgroundColor: 'blue'  
     },
     contentStyle: {
         height: '38vh',
