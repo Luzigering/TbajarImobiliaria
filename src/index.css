@@ -1,0 +1,57 @@
+* {
+  font-family: 'Exo 2', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFC;
+  width: fit-content;
+  
+}
+.childDiv{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+#lastItem{
+  grid-column: 3;
+  grid-row: 2 
+}
+.cardAptoWidth{
+  width: 60%;
+}
+.cardMapWidth{
+  width: 35vw;
+}
+#bold{
+  font-weight: bold;
+  border-bottom: 2px solid #4285F4;
+  margin-top: 1%;
+}
+@media (max-width: 768px) {
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .none{
+    display: none;
+
+  }
+  .cardAptoWidth{
+    width: 100%;
+  }
+  .cardMapWidth{
+    width: 100%;
+  }
+  .totalWidth{
+    width: 100vw;
+    background-color: red;
+  }
+   #cardApto{
+      background-color: blueviolet;
+      width: 100vw
+    }
+   
+}
