@@ -3,21 +3,22 @@ import styles from '../../styles';
 const Tags = () => {
 
   return (
-    <div className="childDiv" style={styles.cardPaiTag}>
+    <div style={styles.cardTag}>
+    <div style={styles.cardPaiTag}>
     
-      <span style={styles.tag} className="childDiv">MOBILIADO</span>
+      <span style={styles.tag} >MOBILIADO</span>
       
     
-    <span style={styles.tag} className="childDiv">LAVANDERIA </span>
+    <span style={styles.tag} >LAVANDERIA </span>
     
     
-    <span style={styles.tag} id= "lastItem" className="childDiv">COZINHA AMERICANA </span>
+    <span style={styles.tag} id= "lastItem" >COZINHA AMERICANA </span>
     
           
     
-    <span style={styles.tag} className="childDiv">MONITORADO POR CÂMERAS </span>
-    
-    </div>
+    <span style={styles.tag} >MONITORADO POR CÂMERAS </span>
+    </div></div>
+   
   );
 };
 

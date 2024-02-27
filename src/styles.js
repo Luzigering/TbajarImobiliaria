@@ -51,7 +51,7 @@ export default {
         maxWidth: '100%',
         backgroundColor: 'white',
         paddingTop: '8%', 
-        boxSizing: 'border-box'
+        boxSizing: 'fit-content'
     },
     map:{
         width: '100%',
@@ -114,23 +114,29 @@ export default {
         opacity: '0.45',
         fontWeight: 'bold',
         borderRadius: '51px',
-        textAlign: 'center',
-        margin: '1%',
-        marginTop: '-1%',
-        padding: '4px', 
+        margin: '1px',
+        padding: '1px', 
         fontSize: '1.7rem',
         boxSizing: 'border-box',
-
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        
     },
     
+
     cardTag:{
-     
+        
+        width: '100%'
     },
     cardPaiTag:{
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
     gridGap: '5px',
-  
+    boxSizing: 'border-box',
+    position: 'relative',
+    marginTop: '-1vh',
+    height: '5em'
     },
     contentStyle: {
         height: '38vh',
@@ -143,10 +149,10 @@ export default {
       },
       
     Card1: {
-        display: "flex",
-        justifyContent: "space-between",
-        
-
+        backgroundColor: 'pink',
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'row'
     },
     cardForm:{
         fontSize: '4rem',

@@ -25,12 +25,14 @@ const InfosApto = () => {
     <div style={{
       display: 'flex',
       flexDirection: 'column',
+    
     }}>
   <div style={{fontSize: '4em', 
   marginLeft: '1%',
   color:'#3A8903', 
   fontWeight: 'bold',
-  overflow: 'hidden',}}>R$1890</div>
+  overflow: 'hidden',
+ }}>R$1890</div>
   <div style={styles.infosLocal}>
     <div style={{
       display: 'flex',
@@ -59,11 +61,11 @@ const InfosApto = () => {
   </div>
 
   </div>
+  
+  </div>
+  <Tags />
+ 
 
-  </div>
-  <div className="childDiv" style={styles.cardTag}>
- <Tags />
-  </div>
   </div>
   </div>
   </div>
