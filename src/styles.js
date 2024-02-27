@@ -149,7 +149,6 @@ export default {
       },
       
     Card1: {
-        backgroundColor: 'pink',
         width: '100%',
         display: 'flex',
         justifyContent: 'row'
