@@ -69,7 +69,7 @@ const InfosApto = () => {
  
 
   </div>
-  <div style={{
+  <div className='scroll' style={{
     fontSize: '1.5rem',
     margin: '1%',
     textAlign: 'justify'

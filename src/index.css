@@ -39,6 +39,9 @@ body{
     display: none;
 
   }
+  .scroll{
+    overflow: scroll;
+  }
   .cardAptoWidth{
     width: 100%;
   }
