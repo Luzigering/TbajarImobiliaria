@@ -3,7 +3,7 @@ import styles from '../../styles';
 const Tags = () => {
 
   return (
-    <div style={styles.cardTag}>
+    <div className='none' style={styles.cardTag}>
     <div style={styles.cardPaiTag}>
     
       <span style={styles.tag} >MOBILIADO</span>

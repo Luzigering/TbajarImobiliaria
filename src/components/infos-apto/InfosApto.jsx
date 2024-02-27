@@ -25,7 +25,9 @@ const InfosApto = () => {
     <div style={{
       display: 'flex',
       flexDirection: 'column',
-    
+    }}>
+      <div style={{
+      zIndex: '10'
     }}>
   <div style={{fontSize: '4em', 
   marginLeft: '1%',
@@ -47,17 +49,17 @@ const InfosApto = () => {
     flexDirection: 'row',
     alignContent: 'center',
     padding: '1%',
-   
+    
   }}>
   <img style={styles.time} src={preco}></img>
   
   <div style={{
     margin: '1%',
     fontSize: '1.5rem',
-    color: 'green'
+    color: 'green',
   }}className='childDiv'> PREÇO ABAIXO DO MERCADO</div>
   </div>
-
+  </div>
   </div>
 
   </div>
@@ -67,9 +69,20 @@ const InfosApto = () => {
  
 
   </div>
+  <div style={{
+    fontSize: '1.5rem',
+    margin: '1%',
+    textAlign: 'justify'
+  }}>
+Modelo moderno: design clean e elegante, com ambientes integrados e ótima iluminação natural.
+Semi-mobiliado com design moderinista: móveis de alta qualidade e bom gosto, prontos para você se mudar!
+2 quartos: perfeitos para relaxar e ter privacidade.
+Cozinha americana: integrada à sala, ideal para momentos de convívio.
+Área de serviço: prática e funcional.
+</div>
   </div>
+
   </div>
-  
 <div className='cardMapWidth'>
   <InfosLocal />
 
