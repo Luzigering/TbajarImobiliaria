@@ -126,7 +126,7 @@ export default {
     
 
     cardTag:{
-        
+        objectFit: 'cover',
         width: '100%'
     },
     cardPaiTag:{
