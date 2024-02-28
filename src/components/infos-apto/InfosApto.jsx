@@ -73,7 +73,7 @@ const InfosApto = () => {
     fontSize: '1.5rem',
     margin: '1%',
     textAlign: 'justify',
-    height: '20vh'
+    
   }}>
 Modelo moderno: design clean e elegante, com ambientes integrados e ótima iluminação natural.
 Semi-mobiliado com design moderinista: móveis de alta qualidade e bom gosto, prontos para você se mudar!

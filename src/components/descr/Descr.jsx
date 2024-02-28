@@ -5,7 +5,8 @@ const Descricao = () => {
   return (
     <div style={{
         width: '100vw',
-        marginTop: '5%'
+        marginTop: '5%',
+
       }}>
               <h1 style={{
         textAlign: 'center',
@@ -13,9 +14,10 @@ const Descricao = () => {
 Descubra seu Refúgio Urbano: Aconchego e praticidade a seus pés</h1>
       <div style={{
         
-        fontSize: '2rem',
+        fontSize: '1.5rem',
         textAlign: 'center',
-        margin: '1%'
+        margin: '1%',
+        
       }}>
 
 

@@ -24,24 +24,26 @@ const InfosLocal = () => {
   <div style={{
     display: 'flex',
     flexDirection: 'row',
-    alignContent: 'center',
-   width: '15em', 
-   padding: '1%',
-   flexWrap: 'nowrap'
+    alignItems: 'center',
+    justifyContent: 'space-aroucnd',
+   width: '15vw', 
+   padding: '1px',
+   
+   
   }}>
-    <img style={styles.time} src={atencao}></img>
+    <img style={{height: '1.5em', margin: '1px', width: '1.5em'}} src={atencao}></img>
     <div style={{
     fontSize: '1.5rem',
     color: 'orange',
-    margin: '1%'
-  }}className='childDiv'> PREÇO ABAIXO DO MERCADO</div>
+    width: '100%'
+  }}> ÁREA DE ALTA PROCURA</div>
     </div>
 
   <div style={styles.infosLocal}> 
     <div 
     style={{
       display: 'flex',
-      flexDirection: 'column'
+      flexDirection: 'column',
     }}
     id='bold'>
     <img style={styles.timer} src={time}></img>

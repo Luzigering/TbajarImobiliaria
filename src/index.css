@@ -23,6 +23,7 @@ body{
 }
 .cardMapWidth{
   width: 35vw;
+  margin: 1%
 }
 #bold{
   font-weight: bold;
@@ -41,6 +42,7 @@ body{
   }
   .scroll{
     overflow: scroll;
+    
   }
   .cardAptoWidth{
     width: 100%;

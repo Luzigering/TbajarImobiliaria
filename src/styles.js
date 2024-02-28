@@ -135,8 +135,8 @@ export default {
     gridGap: '5px',
     boxSizing: 'border-box',
     position: 'relative',
-    marginTop: '-1vh',
-    height: '5em'
+    height: '5em',
+    whiteSpace: 'nowrap',
     },
     contentStyle: {
         height: '38vh',
@@ -161,7 +161,7 @@ export default {
     cardApto:{
     height:'80vh',
     backgroundColor: '#F6F6F1', 
-  
+  zIndex: '1',
     borderRadius: '2%',
     border: '1.5px solid #E8E7E7',}
 }
