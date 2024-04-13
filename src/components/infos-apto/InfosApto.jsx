@@ -6,7 +6,9 @@ import Carrossel from '../carousel/Carrossel';
 import preco from '../../public/icons/preco.png';
 import Tags from '../tags/Tags'
 const InfosApto = () => {
-  const [size, setSize] = useState('large');
+  const hClick = () => {
+    window.open('https://wa.me//5511994909049?text=Tenho%20interesse%20no%20imóvel%20do%20terminal', '_blank');;}
+ 
   return (
    
     <Row id='cardApto'> 
@@ -83,11 +85,13 @@ Cozinha americana: integrada à sala, ideal para momentos de convívio.
 Área de serviço: prática e funcional.
 </div>
   </div>
-  <div style={{display: 'flex', justifyContent: 'flex-end', marginBottom: '1%'}}>
+  <div onClick={hClick} style={{display: 'flex', justifyContent: 'flex-end', marginBottom: '1%'}}>
+    <div>
   <Button style={{backgroundColor: '#303030', fontWeight: 'bold', fontSize: '2rem',
 display: 'flex', alignItems: 'center', justifyContent: 'center'}}type="primary" shape="round" size={'large'}>
             CONTATAR
           </Button>
+          </div>
           </div>
   </div>
 <div className='cardMapWidth'>
