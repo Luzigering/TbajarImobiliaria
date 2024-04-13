@@ -1,15 +1,16 @@
-import { Row } from 'antd';
-import React from 'react';
+import { Row, Button } from 'antd';
+import React, {useState} from 'react';
 import InfosLocal from '../infos-local/InfosLocal';
 import styles from '../../styles';
 import Carrossel from '../carousel/Carrossel';
 import preco from '../../public/icons/preco.png';
 import Tags from '../tags/Tags'
 const InfosApto = () => {
+  const [size, setSize] = useState('large');
   return (
-    
-    <div style={styles.container}>
+   
     <Row id='cardApto'> 
+    <div style={styles.container}></div>
     <div>
     <div style={{
     display: 'flex',
@@ -82,11 +83,16 @@ Cozinha americana: integrada à sala, ideal para momentos de convívio.
 Área de serviço: prática e funcional.
 </div>
   </div>
-
+  <div style={{display: 'flex', justifyContent: 'flex-end', marginBottom: '1%'}}>
+  <Button style={{backgroundColor: '#303030', fontWeight: 'bold', fontSize: '2rem',
+display: 'flex', alignItems: 'center', justifyContent: 'center'}}type="primary" shape="round" size={'large'}>
+            CONTATAR
+          </Button>
+          </div>
   </div>
 <div className='cardMapWidth'>
   <InfosLocal />
-
+  
   </div>
   </div>
   </div>
@@ -94,7 +100,7 @@ Cozinha americana: integrada à sala, ideal para momentos de convívio.
   
   </Row>
 
-</div>
+
   );
 };
 

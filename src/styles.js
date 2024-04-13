@@ -7,13 +7,13 @@ export default {
         display: 'flex',
         justifyContent: 'space-between',
         flexDirection: 'row',
-        alignItems: 'center',
         border: '1.5px solid #E8E7E7',
+        alignItems: 'center'
     },
     logo:{
         height: '14vh',
         objectFit: 'contain',
-        marginLeft:'1%',
+        
 
     },
     contactUs:{
@@ -22,7 +22,8 @@ export default {
         alignItems: 'center',
         alignContent: 'center',
         alignSelf: 'stretch',
-        marginTop: '1%'
+        width: '100%',
+        
     },
     icons:{
         height:'50px',
@@ -33,15 +34,15 @@ export default {
     },
     title:{
         fontSize: '6rem',
-        marginLeft:'1%',
+       width: '100%',
         objectFit:'contain',
         marginTop: "2%",
-        
+        whiteSpace: 'nowrap'
     },
     areaTitle:{
         display: 'flex',
         justifyContent: 'row',
-        width: '90%',
+       
         
     },
     container:{
@@ -69,8 +70,8 @@ export default {
     infoGeralText:{
         fontSize: '1.8rem',
         height: '34vh',
-        borderRadius: '2%',
-        border: '1.5px solid #3A8903',
+        
+        
         padding: '3%',
         display: 'grid',
         alignItems: 'center',

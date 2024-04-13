@@ -36,7 +36,7 @@ const Header = () => {
   fontWeight: 'inherit',
 
 
-}}> <div className='none'>Agende já sua visita!</div></div>
+}}> <div onClick={handleClick} className='none'>Agende já sua visita!</div></div>
 
 
       </div>

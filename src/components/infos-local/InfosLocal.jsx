@@ -24,9 +24,8 @@ const InfosLocal = () => {
   <div style={{
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-aroucnd',
-   width: '15vw', 
+    alignItems: 'center', 
+   width: '100%', 
    padding: '1px',
    
    
@@ -35,7 +34,8 @@ const InfosLocal = () => {
     <div style={{
     fontSize: '1.5rem',
     color: 'orange',
-    width: '100%'
+     
+    flexDirection: 'row',
   }}> ÁREA DE ALTA PROCURA</div>
     </div>
 
@@ -44,6 +44,7 @@ const InfosLocal = () => {
     style={{
       display: 'flex',
       flexDirection: 'column',
+      height: '50%'
     }}
     id='bold'>
     <img style={styles.timer} src={time}></img>
@@ -56,7 +57,8 @@ const InfosLocal = () => {
   <div 
   style={{
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    height: '50%'
   }}
   id='bold'>
     <img style={styles.timer} src={time}></img>
@@ -70,7 +72,8 @@ const InfosLocal = () => {
   <div style={styles.infosLocal}>
     <div style={{
       display: 'flex',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      height: '50%'
     }}
     id='bold'>
     <img style={styles.timer} src={time}></img>
@@ -81,14 +84,11 @@ const InfosLocal = () => {
   </div>
 
   <div>
-    <div>
-    <img src=""></img>
-    </div>
-    Texto ao lado de imagem
+   
   </div>
   </div>
   </div>
-  <div style={styles.line}></div>
+  <div style={styles.line} className='none'></div>
   </div>
   );
 };
